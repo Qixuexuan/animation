@@ -1,6 +1,6 @@
 import { animationFrame } from 'rxjs/scheduler/animationFrame';
 import { Transform } from 'stream';
-import { trigger, state, style, transition, animate, keyframes,group } from '@angular/core';
+import { trigger, state, style, transition, animate, keyframes,group } from '@angular/core'
 
 export const flyIn = trigger('flyIn', [
     state('in', style({ transform: 'translateX(0)' })),
